@@ -1,3 +1,7 @@
+#content {
+  display: none;
+}
+
 .job {
   margin: 20px 0;
 }

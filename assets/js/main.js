@@ -19,4 +19,5 @@ fetch('assets/data/me.json')
   .then(data => {
     const template = Handlebars.compile(document.documentElement.innerHTML);
     document.body.innerHTML = template(data);
+    document.getElementById("content").style.display = "block";
   });
