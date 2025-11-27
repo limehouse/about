@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Curriclum Vitae</title>
+</head>
+
+<body>
+  <section id="contact">
+    {{#with contact}}
+    <h1>{{firstname}} {{lastname}}</h1>
+    <div id="linkedin"><a href="https://www.linkedin.com/in/{{linkedin}}" target="_blank">{{linkedin}}</a></div>
+    <div id="email">{{email}}</div>
+    <div id="phone">{{phone}}</div>
+    {{/with}}
+  </section>
+  <section id="about">
+    <h2>About</h2>
+    <div class="summary">
+      {{#each about}}
+      <div class="paragraph">{{this}}</div>
+      {{/each}}
+    </div>
+  </section>
+  <section id="employment">
+    <h2>Employment</h2>
+    {{#each employment}}
+    <div class="job">
+      <div class="role">{{role}}</div>
+      <div class="employer">{{employer}}, {{location}}</div>
+      <div class="fromto">{{getFullDate from}} &ndash; {{getFullDate to}}</div>
+      <div class="description">{{description}}</div>
+      <div class="tasks">
+        <ul>
+          {{#each tasks}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ul>
+      </div>
+      <div class="skills">
+        {{#each skills}}
+        <span>{{this}}</span>
+        {{/each}}
+      </div>
+    </div>
+    {{/each}}
+  </section>
+  <section id="education">
+    <h2>Education</h2>
+    {{#each education}}
+    <div class="school">
+      <div class="institute">{{institute}}</div>
+      <div class="location">{{location}}</div>
+      <div class="fromto">{{getFullDate from}} &ndash; {{getFullDate to}}</div>
+      <div class="courses">
+        <ul>
+          {{#each courses}}
+          <li>{{this.name}}{{#if this.level}}, {{this.level}}{{/if}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+    {{/each}}
+  </section>
+  <section id="interests">
+    <div class="summary">
+      {{#each interests}}
+      <div class="paragraph">{{this}}</div>
+      {{/each}}
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

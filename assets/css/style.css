@@ -1,0 +1,22 @@
+.job {
+  margin: 20px 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.skills span {
+  background-color: rgba(124, 187, 0, 0.20);
+  color: black;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: small;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* #linkedin::before {
+  content: "https://www.linkedin.com/in/";
+} */
