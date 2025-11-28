@@ -5,73 +5,93 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <title>Curriclum Vitae</title>
 </head>
 
-<body id="content">
-  <section id="contact">
-    {{#with contact}}
-    <h1>{{firstname}} {{lastname}}</h1>
-    <div id="linkedin"><a href="https://www.linkedin.com/in/{{linkedin}}" target="_blank">{{linkedin}}</a></div>
-    <div id="email">{{email}}</div>
-    <div id="phone">{{phone}}</div>
-    {{/with}}
-  </section>
-  <section id="about">
-    <h2>About</h2>
-    <div class="summary">
-      {{#each about}}
-      <div class="paragraph">{{this}}</div>
-      {{/each}}
-    </div>
-  </section>
-  <section id="employment">
-    <h2>Employment</h2>
-    {{#each employment}}
-    <div class="job">
-      <div class="role">{{role}}</div>
-      <div class="employer">{{employer}}, {{location}}</div>
-      <div class="fromto">{{getFullDate from}} &ndash; {{getFullDate to}}</div>
-      <div class="description">{{description}}</div>
-      <div class="tasks">
-        <ul>
-          {{#each tasks}}
-          <li>{{this}}</li>
-          {{/each}}
-        </ul>
-      </div>
-      <div class="skills">
-        {{#each skills}}
-        <span>{{this}}</span>
+<body>
+  <div id="content">
+    <section id="contact">
+      {{#with contact}}
+      <h1>{{firstname}} {{lastname}}</h1>
+      <div id="linkedin"><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/{{linkedin}}"
+          target="_blank">{{linkedin}}</a></div>
+      <div id="email"><i class="fa-solid fa-at"></i>{{email}}</div>
+      <div id="phone"><i class="fa-brands fa-whatsapp"></i>{{phone}}</div>
+      {{/with}}
+    </section>
+    <section id="about">
+      <h2><i class="fa-solid fa-address-card"></i>About</h2>
+      <div class="summary">
+        {{#each about}}
+        <div class="paragraph">{{this}}</div>
         {{/each}}
       </div>
-    </div>
-    {{/each}}
-  </section>
-  <section id="education">
-    <h2>Education</h2>
-    {{#each education}}
-    <div class="school">
-      <div class="institute">{{institute}}</div>
-      <div class="location">{{location}}</div>
-      <div class="fromto">{{getFullDate from}} &ndash; {{getFullDate to}}</div>
-      <div class="courses">
-        <ul>
-          {{#each courses}}
-          <li>{{this.name}}{{#if this.level}}, {{this.level}}{{/if}}</li>
+    </section>
+    <section id="employment">
+      <h2><i class="fa-solid fa-briefcase"></i>Employment</h2>
+      {{#each employment}}
+      <div class="job">
+        <div class="role">
+          <i class="fa-solid fa-user"></i>
+          {{role}}
+        </div>
+        <div class="employer">
+          <i class="fa-regular fa-building"></i>
+          {{employer}}, {{location}}
+          <span class="fromto"><i class="fa-regular fa-calendar"></i>{{getFullDate from}} &ndash; {{getFullDate
+            to}}</span>
+        </div>
+        <div class="description">{{description}}</div>
+        <div class="tasks">
+          <ul>
+            {{#each tasks}}
+            <li>{{this}}</li>
+            {{/each}}
+          </ul>
+        </div>
+        {{#if skills}}
+        <div class="skills">
+          {{#each skills}}
+          <span>{{this}}</span>
           {{/each}}
-        </ul>
+        </div>
+        {{/if}}
       </div>
-    </div>
-    {{/each}}
-  </section>
-  <section id="interests">
-    <div class="summary">
-      {{#each interests}}
-      <div class="paragraph">{{this}}</div>
       {{/each}}
-    </div>
-  </section>
+    </section>
+    <section id="education">
+      <h2><i class="fa-solid fa-graduation-cap"></i>Education</h2>
+      {{#each education}}
+      <div class="school">
+        <div class="institute">
+          <i class="fa-solid fa-building-columns"></i>
+          {{institute}}
+        </div>
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i>
+          {{location}}
+          <span class="fromto">{{getFullDate from}} &ndash; {{getFullDate to}}</span>
+        </div>
+        <div class="courses">
+          <ul>
+            {{#each courses}}
+            <li>{{this.name}}{{#if this.level}}, {{this.level}}{{/if}}</li>
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+      {{/each}}
+    </section>
+    <section id="interests">
+      <h2><i class="fa-solid fa-bullhorn"></i>Interests</h2>
+      <div class="summary">
+        {{#each interests}}
+        <div class="paragraph">{{this}}</div>
+        {{/each}}
+      </div>
+    </section>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
