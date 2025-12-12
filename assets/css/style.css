@@ -32,6 +32,13 @@ body {
   font-weight: bold;
 }
 
+.role i,
+.employer i,
+.institute i,
+.location i {
+  width: 20px;
+}
+
 .employer {
   /* position: relative; */
   margin: 0 0 10px 0;
@@ -43,7 +50,7 @@ body {
 }
 
 section {
-  outline: 1px solid rgb(255, 132, 153);
+  /* outline: 1px solid rgb(255, 132, 153); */
   position: relative;
 }
 
@@ -62,11 +69,12 @@ section>h2 i {
 }
 
 .skills span {
-  background-color: rgba(124, 187, 0, 0.20);
+  /* background-color: rgba(124, 187, 0, 0.20); */
   color: black;
   padding: 2px 6px;
   border-radius: 4px;
   font-size: small;
+  border: 1px solid black;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
