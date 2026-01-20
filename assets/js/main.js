@@ -1,8 +1,6 @@
 const helpers = {
-  join: function (context, hash) {
-    return context.join(hash.delimiter || ', ');
-  },
-  getFullDate: function (yyyyMM) {
+  join: (context, hash) => context.join(hash.delimiter || ', '),
+  getFullDate: (yyyyMM) => {
     if (yyyyMM === "Present") return yyyyMM;
     const [year, month] = yyyyMM.split('-');
     const date = new Date(year, month - 1);

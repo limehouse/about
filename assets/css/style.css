@@ -1,5 +1,41 @@
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url('../assets/fonts/AmazonEmberDisplay_W_Lt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url('../assets/fonts/AmazonEmberDisplay_W_Rg.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url('../assets/fonts/AmazonEmberDisplay_W_Md.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url('../assets/fonts/AmazonEmberDisplay_W_Bd.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url('../assets/fonts/AmazonEmberDisplay_W_He.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
 body {
   background-color: darkgrey;
+  font-family: 'Amazon Ember', sans-serif;
 }
 
 #content {
@@ -30,7 +66,19 @@ body {
 .role {
   border-bottom: 1px solid #9a9a9a;
   font-weight: bold;
+  padding-bottom: 4px;
+  font-size: large;
 }
+
+/* .role,
+.institute {
+  padding-bottom: 2px;
+}
+
+.employer,
+.location {
+  margin-top: 2px;
+} */
 
 .role i,
 .employer i,
@@ -39,9 +87,10 @@ body {
   width: 20px;
 }
 
+.location,
 .employer {
   /* position: relative; */
-  margin: 0 0 10px 0;
+  margin: 2px 0 10px 0;
 }
 
 .fromto {
@@ -78,11 +127,27 @@ section>h2 i {
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
+i {
+  display: none !important;
+}
+
 /* #linkedin::before {
   content: "https://www.linkedin.com/in/";
 } */
 
 @media print {
+  body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  #content {
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+  }
+
   .job {
     page-break-inside: avoid;
   }
