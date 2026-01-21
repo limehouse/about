@@ -20,7 +20,7 @@
       "skills": [
         "Angular",
         "Java",
-        "Oracle",
+        "Oracle SQL",
         "Jenkins",
         "Liquibase",
         "Solr",
@@ -29,7 +29,6 @@
         "CSS3",
         "JavaScript",
         "TypeScript",
-        "SQL",
         "Linux",
         "Git",
         "REST API",
@@ -65,14 +64,14 @@
         "RemoteApp",
         "Python",
         "AutoIt3",
-        "Batch Scripting",
+        "C# .NET",
         "Google Apps Script"
       ],
       "tasks": [
         "Delivered technical support and user training, efficiently resolving support tickets",
         "Implemented system and database enhancements to improve functionality and performance",
         "Generated monthly issue reports for custom insights and tracking",
-        "Developed C# .NET utilities to streamline internal support team workflows",
+        "Developed applications to streamline internal support team workflows",
         "Created a web-based troubleshooting interface for customer connectivity diagnostics"
       ]
     },

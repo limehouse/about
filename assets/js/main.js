@@ -17,5 +17,13 @@ fetch('assets/data/me.json')
   .then(data => {
     const template = Handlebars.compile(document.documentElement.innerHTML);
     document.body.innerHTML = template(data);
+    toggleIcons({ checked: false }) // hide icons by default
     document.getElementById("content").style.display = "block";
   });
+
+function toggleIcons(state) {
+  const faicons = document.querySelectorAll('i');
+  faicons.forEach(i => {
+    i.style.display = state.checked ? 'inline-block' : 'none';
+  })
+}
