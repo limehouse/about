@@ -7,7 +7,7 @@
     "linkedin": "iamphillipwebb"
   },
   "about": [
-    "Support-focused developer with 15 years of experience troubleshooting complex applications, training users and enhancing system performance and functionality in pharmacovigilance, time-and-attendance, and access control."
+    "I am a support focused software engineer with more than 15 years of experience across application support and web development, much of it spent working with complex, business critical systems. My background has given me a practical, user-centred mindset, with a strong focus on reliability, performance, and solving real problems rather than building solutions in isolation."
   ],
   "employment": [
     {
@@ -16,7 +16,7 @@
       "role": "Development Engineer",
       "from": "2021-11",
       "to": "2025-09",
-      "description": "Part of a Scrum team developing a pharmacovigilance web application using Angular, Java, and Oracle; building search and administrative features for user access, reporting and product management.",
+      "description": "Delivered a pharmacovigilance web application, using Angular, Java, and Oracle to implement search, administration, reporting, and product management functionality, as a member of a Scrum team.",
       "skills": [
         "Angular",
         "Java",
@@ -41,11 +41,11 @@
         "Scrum"
       ],
       "tasks": [
-        "Managing Jenkins deployment pipelines for Linux Docker environments",
-        "Optimising data export with Apache POI for efficient data handling",
-        "Designing Spring Boot microservices with scalable API endpoints",
-        "Writing Jasmine unit tests to ensure frontend application reliability",
-        "Conducting technical feasibility assessments and performing peer code reviews"
+        "Maintained and enhanced Jenkins CI/CD pipelines supporting Docker-based Linux deployments",
+        "Improved data export performance and scale through Apache POI optimisation",
+        "Designed and implemented Spring Boot microservices with secure, scalable REST APIs",
+        "Developed comprehensive Jasmine unit tests to validate and stabilise frontend functionality",
+        "Evaluated technical feasibility of new features and participated in structured peer code reviews"
       ]
     },
     {
@@ -54,7 +54,7 @@
       "role": "Software Support Analyst",
       "from": "2013-11",
       "to": "2021-11",
-      "description": "Experienced in supporting a pharmacovigilance database, troubleshooting software issues, providing user support, and ensuring data integrity.",
+      "description": "Provided long term application and database support for a pharmacovigilance platform, resolving complex issues, assisting users, and maintaining high standards of data integrity and system reliability.",
       "skills": [
         "ITIL",
         "XML",
@@ -68,11 +68,11 @@
         "Google Apps Script"
       ],
       "tasks": [
-        "Delivered technical support and user training, efficiently resolving support tickets",
-        "Implemented system and database enhancements to improve functionality and performance",
-        "Generated monthly issue reports for custom insights and tracking",
-        "Developed applications to streamline internal support team workflows",
-        "Created a web-based troubleshooting interface for customer connectivity diagnostics"
+        "Delivered technical support and user training while efficiently managing support tickets",
+        "Implemented system and database improvements to enhance functionality and performance",
+        "Produced monthly issue and trend reports to support tracking and operational insights",
+        "Developed internal tools and applications to streamline and automate support team workflows",
+        "Built a web-based troubleshooting interface to diagnose and resolve customer connectivity issues"
       ]
     },
     {
@@ -81,7 +81,7 @@
       "role": "Helpdesk Analyst",
       "from": "2010-07",
       "to": "2013-10",
-      "description": "Application and hardware support for customers using time and attendance, access control, personnel and energy management systems. Security vetted as non-police personnel by West Midlands Police.",
+      "description": "Provided remote application and hardware support for customers using time and attendance, access control, personnel, and energy management systems; security vetted as non-police personnel by West Midlands Police.",
       "skills": [
         "Microsoft SQL",
         "MSDE",
@@ -89,10 +89,10 @@
         "Remote Access"
       ],
       "tasks": [
-        "Microsoft SQL and MSDE database configuration and support",
-        "Technical hardware installation guidance given to electrical engineers",
-        "Firmware and software upgrades executed using remote access tools",
-        "Application server migration and software installation support"
+        "Configured and supported Microsoft SQL and MSDE databases to ensure reliable system operation",
+        "Provided technical guidance to electrical engineers during on-site hardware installations",
+        "Performed firmware and software upgrades using secure remote access tools",
+        "Supported application server migrations and carried out software installations"
       ]
     },
     {
@@ -101,7 +101,7 @@
       "role": "Service Desk Analyst",
       "from": "2010-02",
       "to": "2010-07",
-      "description": "First line service desk role delivering IT and Facilities support to NHS Strategic Health Authority and Primary Care Trust staff across the Anglia region.",
+      "description": "Delivered first line IT and facilities management support to NHS Strategic Health Authority and Primary Care Trust staff across the Anglia region, gaining experience in user support, account administration, and IT policy compliance.",
       "skills": [
         "Microsoft Office",
         "Microsoft Active Directory",
@@ -109,10 +109,10 @@
         "Hornbill Service Desk"
       ],
       "tasks": [
-        "Microsoft Windows Active Directory account administration",
-        "Microsoft Exchange 2007 account management via OWA",
-        "Enforcing NHS Trust IT and email policies",
-        "Microsoft Office 2003/2007 application support"
+        "Administered Microsoft Windows Active Directory accounts",
+        "Managed Microsoft Exchange 2007 accounts via OWA to support community staff",
+        "Enforced NHS Trust IT and email policies to maintain compliance and data security",
+        "Provided support for Microsoft Office 2003/2007 applications to resolve user issues"
       ]
     },
     {
@@ -121,7 +121,7 @@
       "role": "Software Support Analyst",
       "from": "2006-12",
       "to": "2010-02",
-      "description": "Second line support role, including out-of-hours support for retailers in the UK and Europe using Itim end-to-end retail applications.",
+      "description": "Supported UK head office and shop staff using Itim retail applications, including out-of-hours, developing expertise in software, hardware, and database management.",
       "skills": [
         "EPOS",
         "EFT",
@@ -131,10 +131,10 @@
         "Remote Access"
       ],
       "tasks": [
-        "EFT and EPoS software and hardware support for shop floor and back office teams",
-        "Responsible for EPoS provision and management for new and refitted stores",
-        "Resolved support requests using remote access applications",
-        "Microsoft SQL and DP4 database management"
+        "Delivered EFT and EPoS software and hardware support to shop floor and back office teams",
+        "Managed EPoS provisioning for new and refitted retail stores",
+        "Resolved support requests efficiently using remote access tools, maintaining high service levels",
+        "Managed Microsoft SQL and DP4 databases to support reliable application performance"
       ]
     },
     {
@@ -143,7 +143,7 @@
       "role": "Support Technician",
       "from": "2005-05",
       "to": "2006-11",
-      "description": "IT support role for UK and European customers in small or home office environments. In addition to this role I provided administrative support to Sales staff.",
+      "description": "Provided IT support for UK and European small and home office customers, while assisting Sales staff with administrative tasks, building foundational skills in customer support, technical troubleshooting, and office systems.",
       "skills": [
         "MacOS X",
         "Microsoft Windows",
@@ -151,9 +151,9 @@
       ],
       "tasks": [
         "Provided Microsoft Windows and Office application support to customers",
-        "Maintained records of customer requests, incidents and assets",
-        "Produced quotes, invoices and contracts for scheduled work",
-        "Gave technical sales advice to customers"
+        "Maintained accurate records of customer requests, incidents, and IT assets",
+        "Prepared quotes, invoices, and contracts for scheduled work, supporting sales operations",
+        "Advised customers on technical solutions and pre-sales recommendations"
       ]
     },
     {
@@ -162,12 +162,12 @@
       "role": "Baker",
       "from": "2004-06",
       "to": "2006-11",
-      "description": "A skilled baker with experience producing frozen pies, pastries, bread and cakes while maintaining high standards of quality and safety.",
+      "description": "Produced and baked pastries, bread, and cakes, and baked frozen pies, ensuring consistent quality, hygiene, and safety standards.",
       "skills": [],
       "tasks": [
-        "Safely operated machinery and maintained cleanliness to meet regulations",
-        "Managed inventory to ensure ingredient availability and product quality",
-        "Worked with the team to improve production efficiency"
+        "Operated bakery machinery safely and maintained a clean work environment to meet regulations",
+        "Managed inventory to ensure consistent ingredient availability and product quality",
+        "Collaborated with the team to improve production efficiency and workflow"
       ]
     },
     {
@@ -176,11 +176,11 @@
       "role": "Hardware Technician",
       "from": "2003-07",
       "to": "2004-06",
-      "description": "IT recycling technician with hands-on experience in managing the lifecycle of decommissioned electronic equipment.",
+      "description": "Managed the lifecycle of decommissioned computer equipment, ensuring secure data destruction and preparing devices for resale while maintaining quality standards.",
       "skills": [],
       "tasks": [
-        "Efficiently processed pallets of printers, monitors, desktop and notebook computers",
-        "Destroyed data to ensure compliance with data protection regulations",
+        "Processed pallets of printers, monitors, desktop, and notebook computers efficiently",
+        "Destroyed data to comply with data protection regulations",
         "Cleaned and refurbished devices to meet quality standards for resale at auction"
       ]
     }
@@ -232,7 +232,7 @@
     }
   ],
   "interests": [
-    "I play inline hockey with a local club and serve on the club committee, where I am responsible for development and maintenance of our online roster, using PHP, Vue.JS, Google Apps Script and SQLite/MariaDB, allowing skaters to confirm their attendance at each session.",
-    "My enthusiasm for technology focuses on security and open-source software. I am a dedicated Linux user and actively manage several self-hosted services, allowing me to develop new skills."
+    "Technology enthusiast with experience using Linux for server and desktop computing, with special interest in security, and open-source software. I develop and maintain self-hosted projects for both personal use, and by a local sports club where I serve on the committee.",
+    "My recent projects have focused on PHP, MySQL, Vue.JS and Google Apps Script, and I am currently exploring Cloudflare Workers KV and D1, as well as the Handlebars templating language and HTMX JavaScript library."
   ]
 }
